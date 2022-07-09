@@ -1,0 +1,47 @@
+<html>
+    <head>
+     <style>
+       #parent{
+        width:20%;
+        height:auto;
+        border: 1px solid red;
+        background-color:lightseagreen;
+       
+        text-align: center;
+       }
+       #parent>input:nth-child(1){
+        margin-top: 20px;
+        margin-bottom: 10px;
+       }
+       #parent>input:nth-child(2),input:nth-child(3){
+        
+        margin-bottom: 10px;
+       }
+       button{
+        margin-top: 10px;
+        padding: 10px 60px;
+        margin-bottom: 10px;
+        background-color: aqua;
+       }
+       #parent:nth-child(5){
+        margin-top: 10px;
+       }
+       p{
+        text-align: center;
+        color:white
+       }
+     </style>
+    </head>
+    <body>
+        <div id="parent">
+            <p>Visitor</p>
+           <input type="text" placeholder="Full name" >
+           <input type="email" placeholder="Enter email" >
+           <input type="text" placeholder="Organisation" >
+           <br>
+           <button>SIGNUP</button>
+           <br>
+           <button>RETURN</button>
+        </div>
+    </body>
+</html>
